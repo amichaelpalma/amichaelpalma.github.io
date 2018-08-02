@@ -1,0 +1,124 @@
+.container {
+	padding-top: 2%;
+}
+
+
+#profile-picture {
+	max-height: 70%;
+	max-width: 70%;
+	background-image: url(../assets/Leslie.jpg);
+	background-repeat: no-repeat;
+	position: center;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text {
+	color: white;
+	background: black;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	font-family: 'David Libre', 'serif';
+}
+
+ul {
+	list-style: none;
+}
+
+.contact-info {
+	padding-left: 0;
+}
+
+
+a {
+	letter-spacing: 3px;
+	color: black;
+}
+
+
+.skillbar {
+	width: auto;
+	background-color: #ddd;
+}
+
+.skills {
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 5px;
+	line-height: 20px;
+	color: white;
+}
+
+.ruby {
+	width: 50%;
+	background-color: #000;
+}
+
+.RoR {
+	width: 60%;
+	background-color: #000;
+}
+
+.HTML {
+	width: 80%;
+	background-color: #000;
+}
+
+.CSS {
+	width: 70%;
+	background-color: #000;
+}
+
+.JS {
+	width: 20%;
+	background-color: #000;
+}
+
+.skillset {
+	margin-bottom: 1px;
+}
+
+/* .content {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+} */
+
+.fullname {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	color: white;
+	background: black;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	font-family: 'David Libre', 'serif';
+	text-align: center;
+}
+
+.title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	color: white;
+	background: black;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	font-family: 'David Libre', 'serif';
+	text-align: center;
+}
+
+
+/* .selector-for-some-widget {
+  box-sizing: content-box;
+} */
+
+.resume {
+	display: block;
+	text-align: center;
+}
