@@ -1,3 +1,128 @@
+body, html {
+  height: 100%
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+	background-color: whitesmoke;
+	height: 2px;
+}
+
+a {
+	letter-spacing: 3px;
+	color: whitesmoke;
+}
+
+.resume {
+	padding-top: 2%;
+}
+
+.bgimg {
+  /* Background image */
+  background-image: url(assets/randy-fath-h1ShPXfHbTw-unsplash.jpg), url(/Users/mimypp/Documents/practiceCodes/amichaelpalma.github.io/assets/randy-fath-h1ShPXfHbTw-unsplash.jpg);
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: whitesmoke;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+.contact-info {
+	width:600px;
+	height:3rem;
+	padding-top: 10px;
+	/* padding-left:15px;
+	padding-right:15px; */
+}
+
+#st-box {
+	float:left;
+	padding: 5px;
+	border: 2px solid whitesmoke;
+	background-color: rgb(223, 148, 82);
+	/* width:180px;
+	height:160px;
+	
+	
+	border:solid black; */
+}
+#nd-box {
+	float:left;
+	/* width:180px;
+	height:160px;
+	background-color:white; 
+	border:solid black; */
+	padding: 5px;
+	border: 2px solid whitesmoke;
+	background-color: rgb(223, 148, 82);
+	margin-left: 10%;;
+	margin-right: 10%;
+	color: black;
+}
+#rd-box {
+	float:left;
+	color: black;
+	padding: 5px;
+	border: 2px solid whitesmoke;
+	background-color: rgb(223, 148, 82);
+	/* width:180px;
+	height:160px;
+	background-color:white;
+	border:solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
 // Making way for new Under Construction view page
