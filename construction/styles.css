@@ -39,6 +39,7 @@
 }
 
 .profile-picture {
+  background-image: url(/assets/plantingampalma.jpg), url(/Users/mimypp/Documents/practiceCodes/amichaelpalma.github.io/assets/plantingampalma.jpg);
   object-fit: cover;
   width: 80%;
   height: auto;
