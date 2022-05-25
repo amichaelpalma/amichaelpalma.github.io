@@ -6,8 +6,8 @@
     "hd hd hd hd"
     "sd main main main"
     "ft ft ft ft"
-  
   ;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .header {
@@ -19,8 +19,34 @@
 
 .sidebar {
   grid-area: sd;
+  /* background-color: rgb(223, 148, 82); */
+  margin-top: 1em;
+  min-height: 720px;
+  margin-bottom: 1em;
 }
 
 .footer {
   grid-area: ft;
+  text-align: center;
+  font-size: small;
+  /* background-color: rgb(223, 148, 82); */
+  max-height: 4em;
+  /* color: white; */
+}
+
+.content {
+  grid-area: main;
+}
+
+.profile-picture {
+  object-fit: cover;
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.name {
+  text-align: center;
 }
