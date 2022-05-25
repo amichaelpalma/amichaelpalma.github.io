@@ -4,6 +4,8 @@
   grid-auto-rows: minmax(100px, auto);
   grid-template-areas: 
     "hd hd hd hd"
+    "sd main main main"
+    "ft ft ft ft"
   
   ;
 }
@@ -13,4 +15,12 @@
   text-align: center;
   background-color: rgb(223, 148, 82);
   color: white;
+}
+
+.sidebar {
+  grid-area: sd;
+}
+
+.footer {
+  grid-area: ft;
 }
