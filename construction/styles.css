@@ -11,8 +11,6 @@
 .header {
   grid-area: hd;
   text-align: center;
-  background-color: rgba(0, 128, 128, 0.750);
-  margin: auto 300px ;
+  background-color: rgb(223, 148, 82);
   color: white;
-  border: 1px solid gray;
 }
