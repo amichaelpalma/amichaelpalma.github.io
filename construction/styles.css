@@ -19,18 +19,18 @@
 
 .sidebar {
   grid-area: sd;
-  /* background-color: rgb(223, 148, 82); */
   margin-top: 1em;
   min-height: 720px;
   margin-bottom: 1em;
+  /* background-color: rgb(223, 148, 82); */
 }
 
 .footer {
   grid-area: ft;
   text-align: center;
   font-size: small;
-  /* background-color: rgb(223, 148, 82); */
   max-height: 4em;
+  /* background-color: rgb(223, 148, 82); */
   /* color: white; */
 }
 
@@ -39,7 +39,7 @@
 }
 
 .profile-picture {
-  background-image: url(/assets/plantingampalma.jpg), url(/Users/mimypp/Documents/practiceCodes/amichaelpalma.github.io/assets/plantingampalma.jpg);
+  /* background-image: url(/assets/plantingampalma.jpg), url(/Users/mimypp/Documents/practiceCodes/amichaelpalma.github.io/assets/plantingampalma.jpg); */
   object-fit: cover;
   width: 80%;
   height: auto;
